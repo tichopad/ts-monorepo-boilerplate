@@ -1,5 +1,5 @@
 {
-  "name": "@iggy/utils",
+  "name": "@example/utils",
   "version": "0.0.0",
   "packageManager": "yarn@3.0.1",
   "private": true,

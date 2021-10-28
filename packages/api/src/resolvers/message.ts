@@ -1,4 +1,4 @@
-import { double } from '@iggy/utils';
+import { double } from '@example/utils';
 import type { MessageResolvers } from '../generated/types';
 
 const messageResolvers: MessageResolvers = {

@@ -1692,12 +1692,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iggy/api@workspace:packages/api":
+"@example/api@workspace:packages/api":
   version: 0.0.0-use.local
-  resolution: "@iggy/api@workspace:packages/api"
+  resolution: "@example/api@workspace:packages/api"
   dependencies:
     "@graphql-tools/schema": ^8.2.0
-    "@iggy/utils": "*"
+    "@example/utils": "*"
     "@middy/core": ^2.5.1
     "@middy/error-logger": ^2.5.1
     "@middy/http-json-body-parser": ^2.5.1
@@ -1711,25 +1711,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@iggy/codegen-plugin-schema@workspace:packages/codegen-plugin-schema":
+"@example/codegen-plugin-schema@workspace:packages/codegen-plugin-schema":
   version: 0.0.0-use.local
-  resolution: "@iggy/codegen-plugin-schema@workspace:packages/codegen-plugin-schema"
+  resolution: "@example/codegen-plugin-schema@workspace:packages/codegen-plugin-schema"
   peerDependencies:
     graphql: ^15.5.3
   languageName: unknown
   linkType: soft
 
-"@iggy/utils@*, @iggy/utils@workspace:packages/utils":
+"@example/utils@*, @example/utils@workspace:packages/utils":
   version: 0.0.0-use.local
-  resolution: "@iggy/utils@workspace:packages/utils"
+  resolution: "@example/utils@workspace:packages/utils"
   languageName: unknown
   linkType: soft
 
-"@iggy/web@workspace:packages/web":
+"@example/web@workspace:packages/web":
   version: 0.0.0-use.local
-  resolution: "@iggy/web@workspace:packages/web"
+  resolution: "@example/web@workspace:packages/web"
   dependencies:
-    "@iggy/utils": "*"
+    "@example/utils": "*"
     "@types/react": ^17.0.0
     "@types/react-dom": ^17.0.0
     "@vitejs/plugin-react-refresh": ^1.3.1

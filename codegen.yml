@@ -12,4 +12,4 @@ generates:
       - 'typescript-resolvers'
   packages/api/src/generated/schema.ts:
     plugins:
-      - '@iggy/codegen-plugin-schema'
+      - '@example/codegen-plugin-schema'

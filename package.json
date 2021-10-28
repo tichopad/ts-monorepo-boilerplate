@@ -7,10 +7,10 @@
     "packages/*"
   ],
   "scripts": {
-    "api": "yarn workspace @iggy/api",
-    "codegen-plugin-schema": "yarn workspace @iggy/codegen-plugin-schema",
-    "utils": "yarn workspace @iggy/utils",
-    "web": "yarn workspace @iggy/web"
+    "api": "yarn workspace @example/api",
+    "codegen-plugin-schema": "yarn workspace @example/codegen-plugin-schema",
+    "utils": "yarn workspace @example/utils",
+    "web": "yarn workspace @example/web"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "2.2.0",

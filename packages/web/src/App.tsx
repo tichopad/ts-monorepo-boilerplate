@@ -1,4 +1,4 @@
-import { double } from '@iggy/utils';
+import { double } from '@example/utils';
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
