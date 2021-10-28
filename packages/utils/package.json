@@ -1,0 +1,10 @@
+{
+  "name": "@iggy/utils",
+  "version": "0.0.0",
+  "packageManager": "yarn@3.0.1",
+  "private": true,
+  "main": "src/index",
+  "scripts": {
+    "typecheck": "yarn run -T tsc --noEmit"
+  }
+}
